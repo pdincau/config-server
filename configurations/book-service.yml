@@ -1,0 +1,7 @@
+server:
+  port:
+    0
+
+evaluations.service.id: book-evaluation
+
+management.endpoints.web.exposure.include: hystrix.stream
